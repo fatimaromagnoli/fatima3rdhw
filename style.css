@@ -1,0 +1,55 @@
+
+   h1 {
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: aqua;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 150px;
+    height: 200px;
+    width: 500px;
+    border: 5px darkslateblue;
+    color:white
+}
+
+#genButton{
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 600px){
+    .textarea {
+        display: block;
+        width: 200px;
+        margin-left: 20px;
+    }
+    #genButton {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .textarea{
+        display: block;
+        margin-left: 100px;
+        width: 400px;
+    }
+    #genButton{
+        margin-left: 100px;
+    }
+  }
+@media screen and (max-width: 874px){
+    .textarea{
+        display: block;
+        margin-left: 150px;
+    }
+    #genButton{
+        margin-left: 150px;
+    }
+}
